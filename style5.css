@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.main{
+    max-width: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    height: 1000px;
+    box-shadow: 2px;
+    border: 2px solid black;
+}
+.header{
+    background-color: rgb(47, 47, 214);
+    padding: 15px;
+    color: white;
+    display: flex;
+}
+.margin-right{
+    margin-right: 450px;
+}
+.body{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+} 
+.body-top-img{
+    background-image: url("11.jpg");
+    position: relative;
+    background-size:  cover;
+    background-position: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 200px;
+}
+
+.icon{
+    position: absolute;
+    padding: 8px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    bottom: 10px;
+    left: 875px;
+}
+.body-bottom-img{
+    background-image: url("12.jpg");
+    position: absolute;
+    background-size:  cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    border: 4px solid white;
+    left: 50%;
+    transform: translate(-34%,50%);
+    bottom: 0;
+}
+.icon1{
+    position: absolute;
+    padding: 8px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    bottom: 10px;
+    left: 100px;
+}
+.body-bottom{
+    margin-top:80px;
+    margin-left: 420px;
+    font-weight: bold;
+}
+.main1{
+    margin-top: 30px;
+    display: flex;
+    font-size: 24px;
+}
+.border1{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 810px;
+    text-align: center;
+}
+.border2{
+    margin-left: 10px;
+    background-color: azure;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.main2{
+    font-size: 24px;
+    margin-top: 30px;
+}
+.icon2{
+    margin-right: 18px;
+}
+span{
+    font-weight: bold;
+}
+.border3{
+    background-color: rgb(234, 246, 250);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 920px;
+    text-align: center;
+    color: blue;
+}
